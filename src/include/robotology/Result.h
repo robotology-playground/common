@@ -5,14 +5,17 @@
 
 #include <string>
 #include <memory>
+namespace robotology
+{
 template <typename T>
 class Result
 {
 public:
-    bool        valid{false};
+    bool        valid{ false };
     int         error;
     std::string readable_error;
     T           value;
 
     //adding a operator bool(){return valid;} is a very bad idea as it can cause confusion between the result of bool functions and their success
 };
+}
