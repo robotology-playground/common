@@ -1,5 +1,7 @@
 
-//the class stand as a alternative to the antipattern "bool methodname(const type& input_argument, type& output_argument)" currently used in yarp
+//the class stand as a alternative to the bad practice 
+//"bool methodname(const type& input_argument, type& output_argument)" (as said by the cppcoreguideline F.20)
+//currently used in yarp and many times for other reasons than the ones described in the  "Exception" paragraph.
 //at the moment is a stub so any improvement is appreciated
 // TODO: adding an emplace method to construct T directly in place
 
