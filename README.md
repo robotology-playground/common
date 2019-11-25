@@ -30,6 +30,7 @@ TODO List:
   - https://en.cppreference.com/w/cpp/utility/program/getenv
 * [ ] `span` (c++20)
   - https://en.cppreference.com/w/cpp/container/span
+  - https://github.com/tcbrindle/span
 * [ ] `std::string_view` (c++17)
 * [ ] IEC559 Floating point types
 * [ ] Circular buffer
